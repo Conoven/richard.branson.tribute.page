@@ -1,0 +1,68 @@
+body {
+	text-align: center;
+	font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+img { 
+	max-width: 100%; 
+	display: block;
+	margin: auto; 
+	box-shadow: 5px 5px 7px grey;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+a:link {
+	color: #ff006e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d90429;
+}
+
+a:visited {
+	color: black;
+}
+
+a:active {
+	color: #ff006e;
+}
+
+
+#img-caption {
+	font-size: 1.2rem;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    .main { width:67%; 
+    	}
+    #secondary { width:30%; margin-left:3%;
+    	}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    .main { width:100%; 
+    	}
+    #secondary { width:100%; margin:0; border:none; 
+    	}
+}
+
+@media (min-width: 640px) { 
+	body {font-size:.8rem;
+		} 
+	} 
+
+@media (min-width:960px) { 
+	body {font-size:1rem;
+		} 
+	} 
+
+@media (min-width:1100px) { 
+	body {font-size:1.2rem;
+		} 
+	} 
